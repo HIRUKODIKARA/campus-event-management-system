@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>🎓 Student Dashboard</h2>
+    <div>
+        <a href="events.html">Browse Events</a>
+        <a href="index.html" onclick="logout()">Logout</a>
+    </div>
+</nav>
+
+<section style="text-align:center; margin-top:30px;">
+    <h1>My Registered Events</h1>
+    <p>View all events you have registered for and manage them.</p>
+</section>
+
+<div class="event-container" id="myEvents">
+    <!-- Dynamic events will load here -->
+</div>
+
+<script src="script.js"></script>
+<script>
+loadStudentEvents();
+</script>
+
+</body>
+</html>

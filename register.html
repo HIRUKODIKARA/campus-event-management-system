@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>🎓 CampusEvents</h2>
+    <a href="index.html">Home</a>
+</nav>
+
+<div class="form-container">
+    <h2>Create Account</h2>
+    <form onsubmit="registerUser(event)">
+        <input type="text" id="regName" placeholder="Full Name" required><br>
+         <input type="text" id="studentID" placeholder="Student ID" required><br>
+        <input type="email" id="regEmail" placeholder="Email" required><br>
+        <input type="password" id="regPassword" placeholder="Password" required><br>
+        <select id="regRole" required>
+            <option value="">Select Role</option>
+            <option>Student</option>
+            <option>Admin</option>
+        </select><br>
+        <button class="btn">Register</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
