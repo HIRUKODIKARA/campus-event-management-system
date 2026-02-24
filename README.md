@@ -19,5 +19,5 @@ Frontend web application for managing university events.
 ## Live Demo
 https://HIRUKODIKARA.github.io/campus-event-management-system/
 
-##Clone Repo
+## Clone Repo
 https://github.com/HIRUKODIKARA/campus-event-management-system.git
