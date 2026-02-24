@@ -15,3 +15,9 @@ Frontend web application for managing university events.
 - HTML5
 - CSS3
 - JavaScript
+
+## Live Demo
+https://HIRUKODIKARA.github.io/campus-event-management-system/
+
+##Clone Repo
+https://github.com/HIRUKODIKARA/campus-event-management-system.git
